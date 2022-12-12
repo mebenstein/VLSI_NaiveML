@@ -1,0 +1,21 @@
+0000 - NOT
+0001 - AND
+0010 - OR
+0011 - ADD
+0100 - LESS THAN
+0101 - GREATER THAN
+0110 - EQUAL TO
+0111 - MULTIPLY
+1000 - NOP/READ
+1001 - XXX
+1010 - XXX
+1011 - XXX
+1100 - MIN
+1101 - MAX
+1110 - XXX
+1111 - MULTIPLY-ACCUMULATE
+
+Also note for using computation tiles, there are two files computationTile.v and computationTileInOut.v. computationTileInOut is for having a shared line for the second opcode
+and the output, whereas computationTile is for having a seperate line for the output.
+
+NOTE: In order to read the value from the cell, since the second operand and the output share a wire, You must send the tile a NOP instruction to inform it that you're reading

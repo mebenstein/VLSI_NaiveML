@@ -1,0 +1,33 @@
+
+
+// Acceleration options, check doc before using
+// -caxl
+// +speedup
+
+
+// overwrite timescale (comment out if you do not want)
+-timescale=1n/10p
+
+// SystemVerilog flag, if you are using Systemverilog
+// Note that SystemVerilog is back compatable with Verilog
+// -sverilog
+
+
+// -y with folder, which contains source files
+// -y models2
+
+// -v with Verilog or SystemVerilog files
+-v
+accumulator.v 
+equalTo.v      
+lessThan.v    
+mux2.v        
+reg16.v  
+adder.v          
+computationTileTest.v           
+mux2x16.v  
+mux4x16.v  
+mux8x16.v    
+computationTile.v   
+greaterThan.v  
+multiplier.v   

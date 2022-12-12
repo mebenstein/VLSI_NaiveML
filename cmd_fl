@@ -1,0 +1,44 @@
+// commandline options and file lists
+// Yipeng Wang
+// 10/18/22
+// ----------------------------------
+
+// Acceleration options, check doc before using
+// -caxl
+// +speedup
+
+
+// overwrite timescale (comment out if you do not want)
+-timescale=1n/10p
+
+// SystemVerilog flag, if you are using Systemverilog
+// Note that SystemVerilog is back compatable with Verilog
+// -sverilog
+
+// -y with folder, which contains source files
+// -y models2
+
+// -v with Verilog or SystemVerilog files
+
+// List your files here -------------
+//memory_tb.v
+
+compute_tile/accumulator.v
+compute_tile/adder.v
+compute_tile/computationTile.v
+compute_tile/equalTo.v
+compute_tile/greaterThan.v
+compute_tile/lessThan.v
+compute_tile/multiplier.v
+compute_tile/mux2.v
+compute_tile/mux2x16.v
+compute_tile/mux4x16.v
+compute_tile/mux8x16.v
+compute_tile/reg16.v
+
+control_cell/control_cell.v
+control_cell/ctrl_memory.v
+control_cell/memory_viewer.v
+control_cell/program_loader.v
+
+coreflow.v
