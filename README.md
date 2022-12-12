@@ -1,6 +1,8 @@
 # A Naive Machine Learning Processor
 VLSI 1 Final Project by Michael Ebenstein (control_cell) and Ian SymSmith (compute_tile)
 
+For a detailed explanation see our [report](report.pdf).
+
 <table>
     <tbody>
         <tr>
