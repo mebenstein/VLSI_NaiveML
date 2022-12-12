@@ -1,4 +1,4 @@
-# A Minimal Machine Learning Processor
+# A Naive Machine Learning Processor
 VLSI 1 Final Project by Michael Ebenstein (control_cell) and Ian SymSmith (compute_tile)
 
 <table>
@@ -44,5 +44,4 @@ vcs -full64 -f cmd_fl -debug
 
 #### Matrix-multiplication
 ![](benchmark/matrix-multiplication.png)
-# VLSI_NaiveML
-# VLSI_NaiveML
+
